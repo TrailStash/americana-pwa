@@ -11,6 +11,12 @@
       "sizes": "any",
       "type": "image/png",
       "puprose": "any"
+    },
+    {
+      "src": "./logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "puprose": "maskable"
     }
   ]
 }
