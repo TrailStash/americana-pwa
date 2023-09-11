@@ -1,0 +1,40 @@
+{
+  "name": "@trailstash/americana-pwa",
+  "version": "0.1.0",
+  "description": "A quintessentially American PWA",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild --format=esm --bundle index.js --outfile=dist/index.js",
+    "build:pages": "mkdir -p pages && cp -Lr index.html sw.js logo.png favicon.png manifest.json sprites dist pages/.",
+    "start": "npm run build -- --servedir=.",
+    "format": "prettier --write '*.js' '*.json' README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trailstash/americana-pwa"
+  },
+  "keywords": [
+    "Mapibre",
+    "Map",
+    "OSM",
+    "GIS",
+    "OpenStreetMap",
+    "TrailStash",
+    "Americana"
+  ],
+  "author": "Daniel Schep <dschep@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trailstash/americana-pwa/issues"
+  },
+  "homepage": "https://github.com/trailstash/americana-pwa#readme",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "esbuild": "^0.19.2"
+  },
+  "dependencies": {
+    "@trailstash/stylejs-americana": "file:../maplibregl-utils/americana",
+    "@trailstash/map-view": "file:../maplibregl-utils/map-view"
+  }
+}
