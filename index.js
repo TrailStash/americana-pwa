@@ -1,5 +1,6 @@
 import MapView from "@trailstash/map-view";
 import Americana from "@trailstash/stylejs-americana";
+import "@trailstash/map-view/dist/index.css"
 
 const config = {
   map: {
