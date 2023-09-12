@@ -7,4 +7,4 @@ on cell phones.
 It is powered by `@trailastash/stylejs-americana` which wraps the style to conform to the the
 [TrailStash StyleJS spec](https://gitlab.com/trailstash/map-view#trailstash-stylejs-spec)
 
-Check it out here to install it! https://trailastash.github.io/americana-pwa
+Check it out here to install it! https://trailstash.github.io/americana-pwa
